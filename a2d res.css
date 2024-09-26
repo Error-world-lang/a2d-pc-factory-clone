@@ -1,0 +1,357 @@
+body{
+    
+}   
+/* .logo{
+    height: 70px;
+    width: 400px;
+} */
+.header{
+/* align-items: center; */
+margin-left: 500px;
+margin-top: 0;
+background-color: black;
+justify-content: center;
+position: fixed;
+/* margin: 100%; */
+/* margin: 0; */
+/* height: 40px; */
+}
+.con{
+  display: flex;
+  background-color: black ;
+  height: 600px;
+  margin: 0%;
+}
+.one{
+    font-size: 33px;
+    color: white  ;
+    margin-left: 100px;
+    margin-top: 100px;
+    height: 300px;
+    width: 550px;
+    /* background-color: gold; */
+    
+    /* border-radius: 100px; */
+
+}
+.i{
+    color: orange;
+}
+span{
+    color: orange;
+}
+.two{
+    height: 100px;
+    width: 300px;
+    margin-left: 100px;
+}
+.img{
+height: 500px;
+width: 500px;
+margin-top: 80px;
+}
+.p{
+    font-size:20px;
+    /* margin-bottom: 30px; */
+}
+.but{
+    height: 55px;
+    width: 180px;
+    color: white;
+    background-color: orange;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+}
+.but:hover{
+    /* color: rgb(214, 146, 20); */
+}
+.con1{
+    width: 300px;
+display: flex;
+width: 1100px;
+justify-content: space-evenly;
+justify-content: space-between; 
+/* justify-content: center; */
+margin-top: 50px;
+/* width: 00px; */
+
+}
+.box{
+
+    margin-left: 50px ;
+  margin-top: 50px;
+  /* margin-left: 100px; */
+  height:150px;
+width:230px;
+background-color: rgb(240, 237, 237);
+/* margin-left: 200px; */
+border-radius: 25px;
+/* color: white; */
+}
+.box:hover  {
+    background-color: orange;
+    color: white;
+}
+.h{
+    color: orange;
+}
+.h:hover{
+    color: white;
+}
+
+.hrr{
+    margin-left: 550px;
+    margin-top: 50PX;
+    color: orange;
+    /* display: flex; */
+}
+.con2{
+    display: flex;
+}
+.iiii{
+    height: 300px;
+    width: 300px;
+    margin-left: 80px ;
+}widt
+.one1{
+height: 350px;
+width: 2500px;
+margin-left: 100px;
+background-color: rgb(234, 235, 236);
+border-radius: 20px;
+/* z-index: 1; */
+}
+.one1:hover{
+    background-color: orange;
+}
+.one2{
+    margin-left:200px;
+}
+.con3{
+    display: flex;
+}
+.iiiii{
+    height:300px ;
+    width: 300px;
+    margin-left: 200px;
+}
+
+.two2{
+    height: 350px;
+width: 1500px;
+margin-left: 100px;
+background-color: rgb(234, 235, 236);
+border-radius: 20px;
+/* z-index: 1; */
+border-radius: 20px;
+}
+.two2:hover{
+    background-color: orange;
+}
+two1{
+    margin-left: 10px;
+}
+
+.ii{
+    font-size: 20px;
+}
+.con4{
+ display: flex;
+}
+.i3{
+    height:300px ;
+    width: 300px;
+    margin-left: 200px;
+}
+.three2{
+   height: 350px;
+    width: 1500px;
+    margin-left: 100px;
+    background-color: rgb(234, 235, 236);
+    border-radius: 20px;
+    /* z-index: 1; */
+    border-radius: 20px;
+}
+.three2:hover{
+    background-color: orange;
+}
+.con5{
+    display: flex;
+}
+.i1{
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+}
+.four1{
+    height: 350px;
+    width: 800px;
+    margin-left: 100px;
+    background-color: rgb(234, 235, 236);
+    border-radius: 20px;
+    /* z-index: 1; */
+    }
+    .four1:hover{
+        background-color: orange;
+    }
+    .four2{
+        margin-left: 20px;
+    }
+    .footer{
+        margin-top: 20px;
+        background-color: black;
+        height: 400px;
+        width: 100%;
+        /* display: flex; */
+    }
+.con6{
+    /* background-color: black;
+    height: 400px;
+    width: 100%; */
+    display: flex;
+}
+.b{
+  width: 0px;
+  border-color: white;
+  height: 10px;
+  background-color: black;
+  color: white;
+}
+.f{
+    margin-top: 30px;
+    margin-left: 30px;
+    /* color: white; */
+    padding: 20px;
+}
+.o{
+    margin-top: 30px;
+    margin-left: 30px;
+    /* color: white; */
+    padding: 20px;
+}
+.pra{
+    border-color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    background-color: black;
+}
+.pra:hover{
+    background-color: white;
+}
+.t{
+    margin-top: 30px;
+    margin-left: 30px;
+    /* color: white; */
+    padding: 20px; 
+}
+.i5{
+    color: rgb(223, 221, 221);
+  width: 80%;
+}
+/* Original CSS */
+
+/* Your existing styles go here */
+
+/* Media Query for max-width: 600px */
+@media (max-width: 600px) {
+    .header {
+        margin-left: 0;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        position: none;
+    }
+
+    .con {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin: 0;
+    }
+
+    .one {
+        font-size: 24px;
+        margin: 20px;
+        width: auto;
+    }
+
+    .two {
+        height:auto;
+        width: auto;
+        margin-left: 20px;
+    }
+
+    .img {
+
+        height: auto;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .but {
+        width: 100%;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .con1 {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .box {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .hrr {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .iiii, .iiiii, .i3, .i1 {
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+    }
+    
+
+    .one1, .two2, .three2, .four1 {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+
+    .con6 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .b {
+        width: 100%;
+    }
+
+    .f, .o, .t {
+        padding: 10px;
+    }
+
+    .pra {
+        width: 10px;
+        height: 10px;
+    }
+
+    .i5 {
+        width: 100%;
+    }
+}
+
+
